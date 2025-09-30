@@ -16,7 +16,7 @@ export default async function RootLayout({ children, params }: LayoutProps<'/[lo
     const { locale } = await params;
 
     return (
-        <html lang={locale}>
+        <html lang={locale} className={"dark"}>
             <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
                 <Analytics />
                 <I18nProviderClient locale={locale}>{children}</I18nProviderClient>
