@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { I18nProviderClient } from "@/locales/client";
+import { Analytics } from "@vercel/analytics/next"
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
@@ -16,9 +17,10 @@ export default async function RootLayout({ children, params }: LayoutProps<'/[lo
 
     return (
         <html lang={locale}>
-        <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <I18nProviderClient locale={locale}>{children}</I18nProviderClient>
-        </body>
+            <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+                <Analytics />
+                <I18nProviderClient locale={locale}>{children}</I18nProviderClient>
+            </body>
         </html>
     );
 }
