@@ -1,3 +1,3 @@
 export default {
-  "start": "ça arrive :)"
+  "name": "Quentin T'JAMPENS"
 } as const

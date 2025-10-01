@@ -1,11 +1,16 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Oswald } from "next/font/google";
 import "./globals.css";
 import { I18nProviderClient } from "@/locales/client";
 import { Analytics } from "@vercel/analytics/next"
 
-const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
-const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
+
+const oswald = Oswald({
+    subsets: ['latin'],
+    weight: ['400', '700'],
+    variable: '--font-oswald',
+    display: 'swap',
+})
 
 export const metadata: Metadata = {
     title: "Portfolio | Quentin T'JAMPENS",
@@ -17,7 +22,7 @@ export default async function RootLayout({ children, params }: LayoutProps<'/[lo
 
     return (
         <html lang={locale} className={"dark"}>
-            <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+            <body className={`${oswald.variable} antialiased`}>
                 <Analytics />
                 <I18nProviderClient locale={locale}>{children}</I18nProviderClient>
             </body>
