@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Oswald } from "next/font/google";
 import "./globals.css";
 import { I18nProviderClient } from "@/locales/client";
@@ -14,8 +14,13 @@ const oswald = Oswald({
 
 export const metadata: Metadata = {
     title: "Portfolio | Quentin T'JAMPENS",
-    description: "Portfolio de Quentin T'JAMPENS",
+    description: "Portfolio de Quentin T'JAMPENS"
 };
+
+export const viewport: Viewport = {
+    width: "device-width",
+    initialScale: 1
+}
 
 export default async function RootLayout({ children, params }: LayoutProps<'/[locale]'>) {
     const { locale } = await params;
