@@ -5,4 +5,5 @@ export default {
     "location": "Lyon, France",
     "school": "University Claude Bernard Lyon 1 - IUT Bourg-en-Bresse",
     "diplomas": "3-years-bachelor - Computer Science",
+    "github": "github.com/Pyramond",
 } as const

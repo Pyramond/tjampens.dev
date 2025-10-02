@@ -28,8 +28,8 @@ const GeneralInformations: React.FC = async () => {
             </div>
 
             <div className="flex items-center space-x-2">
-                <MotionImage path={"/icons/pin.svg"} size={SIZE} alt={"Pin icon"} />
-                <p> {t("location")} </p>
+                <MotionImage path={"/icons/github.svg"} size={SIZE} alt={"Github icon"} />
+                <p> {t("github")} </p>
             </div>
 
         </div>

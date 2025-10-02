@@ -4,5 +4,6 @@ export default {
     "sub-title": "Etudiant en informatique - BUT2",
     "location": "Lyon",
     "school": "Université Claude Bernard Lyon 1 - IUT Bourg-en-Bresse",
-    "diplomas": "Bachelor Informatique - Développement"
+    "diplomas": "Bachelor Informatique - Développement",
+    "github": "github.com/Pyramond",
 } as const
