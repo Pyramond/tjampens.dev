@@ -3,6 +3,7 @@ import { Meteors } from "@/components/ui/meteors";
 import { LightRays } from "@/components/ui/light-rays"
 import Header from "@/components/home/header";
 import GeneralInformations from "@/components/home/general-informations";
+import Projects from "@/components/home/projects";
 
 export default async function Home() {
 
@@ -14,6 +15,7 @@ export default async function Home() {
         <LightRays />
         <Header />
         <GeneralInformations />
+        <Projects />
     </div>
   );
 }
