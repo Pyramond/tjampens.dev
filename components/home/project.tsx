@@ -3,9 +3,11 @@
 import React from "react";
 import Image from "next/image";
 import ProjectType from "@/types/project";
+import { useCurrentLocale } from "@/locales/client";
 
 const Project: React.FC<ProjectType> = ({ title, fr, en, year, source }) => {
 
+    const locale = useCurrentLocale();
     const SIZE = 25;
 
     const handleClick = ():void => {
@@ -20,7 +22,7 @@ const Project: React.FC<ProjectType> = ({ title, fr, en, year, source }) => {
                 <h3 className="text-4xl mb-2"> {title} </h3>
                 <h4> {year} </h4>
             </div>
-            <p> {fr} </p>
+            <p> {locale === "fr" ? fr : en} </p>
             {
                 source ?
                     <div className="flex justify-center sm:justify-end mt-auto ml-0 sm:ml-4">

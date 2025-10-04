@@ -2,7 +2,8 @@
   {
     "title": "OneBlind",
     "year": "2023-2025",
-    "description": "OneBlind est un directeur de poker en ligne. Il permet de gérer une partie de poker, y compris les blinds, les recaves et les joueurs. OneBlind offre la possibilité de créer sa propre structure de blinds, d'ajouter des joueurs, de consulter l'historique des parties et bien plus encore. Ce projet a été codé avec React et FastAPI.",
+    "fr": "OneBlind est un directeur de poker en ligne. Il permet de gérer une partie de poker, y compris les blinds, les recaves et les joueurs. OneBlind offre la possibilité de créer sa propre structure de blinds, d'ajouter des joueurs, de consulter l'historique des parties et bien plus encore. Ce projet a été codé avec React et FastAPI. ",
+    "en": "OneBlind is an online poker tournament director. It lets you manage a poker game, including blinds, rebuys, and players. OneBlind allows you to create your own blind structure, add players, view game history, and much more. This project was built with React and FastAPI.",
     "source": {
       "title": "github",
       "url": "https://github.com/Pyramond/OneBlind"
@@ -11,7 +12,8 @@
   {
     "title": "dayamond.fr",
     "year": "2025",
-    "description": "Ce site est une sorte de portfolio et de site de présentation. Il permet de découvrir mes projets et d'en savoir plus sur moi. À noter que mon site ne contient pas l'ensemble de mes projets, mais seulement les plus pertinents. Ce site est codé avec le framework NextJS.",
+    "fr": "Ce site est une sorte de portfolio et de site de présentation. Il permet de découvrir mes projets et d'en savoir plus sur moi. À noter que mon site ne contient pas l'ensemble de mes projets, mais seulement les plus pertinents. Ce site est codé avec le framework NextJS.",
+    "en": "This site is a kind of portfolio and showcase. It lets you discover my projects and learn more about me. Note that my site doesn’t include all of my projects, only the most relevant ones. This site is built with the Next.js framework.",
     "source": {
       "title": "github",
       "url": "https://github.com/Pyramond/dayamond.fr"
@@ -20,7 +22,8 @@
   {
     "title": "Recipe App",
     "year": "2025",
-    "description": "Une application iOS créée avec React Native et Firebase. Elle a pour but de gérer les recettes de cuisine d'un utilisateur. Avec cette application, on peut ajouter, supprimer, consulter et partager ses recettes.",
+    "fr": "Une application iOS créée avec React Native et Firebase. Elle a pour but de gérer les recettes de cuisine d'un utilisateur. Avec cette application, on peut ajouter, supprimer, consulter et partager ses recettes.",
+    "en": "An iOS app built with React Native and Firebase. It’s designed to manage a user’s recipes. With this app, you can add, delete, view, and share your recipes.",
     "source": {
       "title": "github",
       "url": "https://github.com/Pyramond/recipe-app"
@@ -29,6 +32,7 @@
   {
     "title": "Tapo Hub",
     "year": "2023",
-    "description": "Tapo Hub est une app codée avec NextJS et bootstrap qui a pour but de controller des ampoules connectées TP-Link TAPO"
+    "fr": "Tapo Hub est une app codée avec NextJS et bootstrap qui a pour but de controller des ampoules connectées TP-Link TAPO",
+    "en": "Tapo Hub is an app built with Next.js and Bootstrap designed to control TP-Link Tapo smart bulbs."
   }
 ]
