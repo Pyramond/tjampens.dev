@@ -1,0 +1,39 @@
+"use client"
+
+import React from "react";
+import Image from "next/image";
+import ProjectType from "@/types/project";
+
+const Project: React.FC<ProjectType> = ({ title, fr, en, year, source }) => {
+
+    const SIZE = 25;
+
+    const handleClick = ():void => {
+        if(source) {
+            window.open(source?.url, "_blank");
+        }
+    }
+
+    return (
+        <div className="flex flex-col h-full p-2">
+            <div className="flex flex-row items-baseline gap-2">
+                <h3 className="text-4xl mb-2"> {title} </h3>
+                <h4> {year} </h4>
+            </div>
+            <p> {fr} </p>
+            {
+                source ?
+                    <div className="flex justify-center sm:justify-end mt-auto ml-0 sm:ml-4">
+                        <button className="bg-white text-black flex flex-row justify-center gap-2.5 p-1.5 rounded-md cursor-pointer w-[100%] sm:w-auto" onClick={handleClick}>
+                            <Image src={"/icons/github-light.svg"} alt={"Github icon"} height={SIZE} width={SIZE} />
+                            Github
+                        </button>
+                    </div>
+                    :
+                    null
+            }
+        </div>
+    )
+}
+
+export default Project;
