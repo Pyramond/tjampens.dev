@@ -17,7 +17,7 @@ const Project: React.FC<ProjectType> = ({ title, fr, en, year, source }) => {
     }
 
     return (
-        <div className="flex flex-col h-full">
+        <div className="flex flex-col h-full p-6 rounded-xl border border-white/5 bg-white/5 backdrop-blur-lg hover:shadow-[0_0_5px_rgba(255,255,255,0.1)] transition-all duration-300">
             <div className="flex flex-row items-baseline gap-2">
                 <h3 className="text-4xl mb-2"> {title} </h3>
                 <h4> {year} </h4>
