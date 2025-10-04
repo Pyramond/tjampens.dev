@@ -10,13 +10,13 @@
     }
   },
   {
-    "title": "dayamond.fr",
+    "title": "tjampens.dev",
     "year": "2025",
-    "fr": "Ce site est une sorte de portfolio et de site de présentation. Il permet de découvrir mes projets et d'en savoir plus sur moi. À noter que mon site ne contient pas l'ensemble de mes projets, mais seulement les plus pertinents. Ce site est codé avec le framework NextJS.",
+    "fr": "Un site web servant de portfolio. Il contient mes projets les plus importants, mes compétences et diverses informations sur moi. Ce site web a été réalisé avec NextJS, tailwindCSS et MagicUI",
     "en": "This site is a kind of portfolio and showcase. It lets you discover my projects and learn more about me. Note that my site doesn’t include all of my projects, only the most relevant ones. This site is built with the Next.js framework.",
     "source": {
       "title": "github",
-      "url": "https://github.com/Pyramond/dayamond.fr"
+      "url": "https://github.com/Pyramond/tjampens.dev"
     }
   },
   {
@@ -27,6 +27,16 @@
     "source": {
       "title": "github",
       "url": "https://github.com/Pyramond/recipe-app"
+    }
+  },
+  {
+    "title": "dayamond.fr",
+    "year": "2025",
+    "fr": "Ce site est une sorte de portfolio et de site de présentation. Il permet de découvrir mes projets et d'en savoir plus sur moi. À noter que mon site ne contient pas l'ensemble de mes projets, mais seulement les plus pertinents. Ce site est codé avec le framework NextJS.",
+    "en": "This site is a kind of portfolio and showcase. It lets you discover my projects and learn more about me. Note that my site doesn’t include all of my projects, only the most relevant ones. This site is built with the Next.js framework.",
+    "source": {
+      "title": "github",
+      "url": "https://github.com/Pyramond/dayamond.fr"
     }
   },
   {
