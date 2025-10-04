@@ -10,7 +10,7 @@ const GeneralInformations: React.FC = async () => {
     const SIZE = 40
 
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-6 p-3 sm:p-0">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-6 p-3 lg:p-0">
 
             <div className="flex items-center space-x-2">
                 <MotionImage path={"/icons/pin.svg"} size={SIZE} alt={"Pin icon"} />

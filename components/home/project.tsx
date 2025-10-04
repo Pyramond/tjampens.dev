@@ -25,8 +25,8 @@ const Project: React.FC<ProjectType> = ({ title, fr, en, year, source }) => {
             <p className="mb-5"> {locale === "fr" ? fr : en} </p>
             {
                 source ?
-                    <div className="flex justify-center sm:justify-end mt-auto ml-0 sm:ml-4">
-                        <button className="bg-white text-black flex flex-row justify-center gap-2.5 p-1.5 rounded-md cursor-pointer w-[100%] sm:w-auto" onClick={handleClick}>
+                    <div className="flex justify-center lg:justify-end mt-auto ml-0 lg:ml-4">
+                        <button className="bg-white text-black flex flex-row justify-center gap-2.5 p-1.5 rounded-md cursor-pointer w-[100%] lg:w-auto" onClick={handleClick}>
                             <Image src={"/icons/github-light.svg"} alt={"Github icon"} height={SIZE} width={SIZE} />
                             Github
                         </button>
