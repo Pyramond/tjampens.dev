@@ -7,17 +7,19 @@ import Projects from "@/components/home/projects";
 import Skills from "@/components/home/skills";
 
 export default async function Home() {
+    const t = await getI18n();
 
-  const t = await getI18n(); 
+    return (
+        <div className="relative w-full">
+            <LightRays className="absolute inset-0 h-full w-full -z-10 pointer-events-none" />
+            <Meteors number={30} />
 
-  return (
-    <div className="flex flex-col items-center gap-5">
-        <Meteors number={30}/>
-        <LightRays />
-        <Header />
-        <GeneralInformations />
-        <Projects />
-        <Skills />
-    </div>
-  );
+            <div className="relative flex min-h-[100svh] flex-col items-center gap-5">
+                <Header />
+                <GeneralInformations />
+                <Projects />
+                <Skills />
+            </div>
+        </div>
+    );
 }
