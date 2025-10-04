@@ -17,12 +17,12 @@ const Project: React.FC<ProjectType> = ({ title, fr, en, year, source }) => {
     }
 
     return (
-        <div className="flex flex-col h-full p-2">
+        <div className="flex flex-col h-full">
             <div className="flex flex-row items-baseline gap-2">
                 <h3 className="text-4xl mb-2"> {title} </h3>
                 <h4> {year} </h4>
             </div>
-            <p> {locale === "fr" ? fr : en} </p>
+            <p className="mb-5"> {locale === "fr" ? fr : en} </p>
             {
                 source ?
                     <div className="flex justify-center sm:justify-end mt-auto ml-0 sm:ml-4">
