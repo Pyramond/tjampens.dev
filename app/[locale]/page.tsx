@@ -11,7 +11,7 @@ export default async function Home() {
   const t = await getI18n();
 
   return (
-    <div className="flex flex-col items-center gap-5 relative overflow-hidden">
+    <div className="flex flex-col items-center gap-5 lg:relative overflow-hidden">
         <Meteors number={30}/>
         <LightRays />
         <Header />
