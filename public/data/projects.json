@@ -34,5 +34,15 @@
     "year": "2023",
     "fr": "Tapo Hub est une app codée avec NextJS et bootstrap qui a pour but de controller des ampoules connectées TP-Link TAPO",
     "en": "Tapo Hub is an app built with Next.js and Bootstrap designed to control TP-Link Tapo smart bulbs."
+  },
+  {
+    "title": "School projects",
+    "year": "2024-2025",
+    "fr": "Un dépot Git dans lequel il y a mes plus importants projets réalisés dans le cadre de ma scolarité.",
+    "en": "A Git repository containing my most important projects completed as part of my studies.",
+    "source": {
+      "title": "github",
+      "url": "https://github.com/Pyramond/School-projects"
+    }
   }
 ]
