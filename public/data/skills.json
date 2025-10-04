@@ -1,0 +1,31 @@
+{
+  "languages": [
+    "TypeScript",
+    "JavaScript",
+    "Python",
+    "C++",
+    "Java",
+    "HTML",
+    "CSS"
+  ],
+  "library": [
+    "ReactJS",
+    "React Native",
+    "NextJS",
+    "Redux",
+    "React Router",
+    "FastAPI",
+    "NodeJS",
+    "NPM"
+  ],
+  "tools": [
+    "Linux",
+    "Git",
+    "Jetbrains",
+    "Firebase",
+    "Insomnia",
+    "MariaDB",
+    "SQLite",
+    "ViteJS"
+  ]
+}

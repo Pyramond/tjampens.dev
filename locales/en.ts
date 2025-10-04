@@ -6,5 +6,9 @@ export default {
     "school": "University Claude Bernard Lyon 1 - IUT Bourg-en-Bresse",
     "diplomas": "3-years-bachelor - Computer Science",
     "github": "github.com/Pyramond",
-    "project-title": "My Projects"
+    "project-title": "My Projects",
+    "skills-title": "Skills",
+    "skills-language": "Languages",
+    "skills-library": "Libraries / Frameworks",
+    "skills-tools": "Tools"
 } as const
