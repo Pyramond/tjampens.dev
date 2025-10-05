@@ -21,11 +21,12 @@
   "tools": [
     "Linux",
     "Git",
-    "Jetbrains",
     "Firebase",
     "Insomnia",
     "MariaDB",
     "SQLite",
-    "ViteJS"
+    "ViteJS",
+    "Jetbrains",
+    "VSCode"
   ]
 }
