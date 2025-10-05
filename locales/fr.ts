@@ -1,4 +1,5 @@
 export default {
+    "copyright": "© 2025 Quentin T'JAMPENS (tjampens.dev), Tous droits réservés.",
     "name": "Quentin T'JAMPENS",
     "title": "Développeur junior",
     "sub-title": "Etudiant en informatique - BUT2",
@@ -10,5 +11,6 @@ export default {
     "skills-title": "Mes compétences",
     "skills-language": "Langages",
     "skills-library": "Library / Frameworks",
-    "skills-tools": "Outils"
+    "skills-tools": "Outils",
+    "aboutBtn": "À propos"
 } as const

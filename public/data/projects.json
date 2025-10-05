@@ -7,7 +7,8 @@
     "source": {
       "title": "github",
       "url": "https://github.com/Pyramond/OneBlind"
-    }
+    },
+    "stack": ["JavaScript", "Python", "ReactJS", "React Router", "FastAPI", "SQLite", "Redux", "Sass", "Mantine", "Supabase"]
   },
   {
     "title": "tjampens.dev",
@@ -17,7 +18,8 @@
     "source": {
       "title": "github",
       "url": "https://github.com/Pyramond/tjampens.dev"
-    }
+    },
+    "stack": ["TypeScript", "NextJS", "ReactJS", "TailwindCSS", "MagicUI", "Motion"]
   },
   {
     "title": "Recipe App",
@@ -27,7 +29,8 @@
     "source": {
       "title": "github",
       "url": "https://github.com/Pyramond/recipe-app"
-    }
+    },
+    "stack": ["TypeScript", "React Native", "Firebase"]
   },
   {
     "title": "dayamond.fr",
@@ -37,13 +40,15 @@
     "source": {
       "title": "github",
       "url": "https://github.com/Pyramond/dayamond.fr"
-    }
+    },
+    "stack": ["TypeScript", "CSS", "NextJS", "ReactJS", "Motion", "GSAP"]
   },
   {
     "title": "Tapo Hub",
     "year": "2023",
     "fr": "Tapo Hub est une app codée avec NextJS et bootstrap qui a pour but de controller des ampoules connectées TP-Link TAPO",
-    "en": "Tapo Hub is an app built with Next.js and Bootstrap designed to control TP-Link Tapo smart bulbs."
+    "en": "Tapo Hub is an app built with Next.js and Bootstrap designed to control TP-Link Tapo smart bulbs.",
+    "stack": ["JavaScript", "CSS", "NextJS", "ReactJS", "SQLite", "Bootstrap"]
   },
   {
     "title": "School projects",

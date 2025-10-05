@@ -1,4 +1,5 @@
 export default {
+    "copyright": "© 2025 Quentin T'JAMPENS (tjampens.dev), All rights reserved.",
     "name": "Quentin T'JAMPENS",
     "title": "Junior developer",
     "sub-title": "Computer Science student",
@@ -10,5 +11,6 @@ export default {
     "skills-title": "Skills",
     "skills-language": "Languages",
     "skills-library": "Libraries / Frameworks",
-    "skills-tools": "Tools"
+    "skills-tools": "Tools",
+    "aboutBtn": "About"
 } as const
