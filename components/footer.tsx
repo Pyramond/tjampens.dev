@@ -9,7 +9,7 @@ const Footer: React.FC = async () => {
     const SIZE = 35;
 
     return (
-        <footer className="mt-auto bg-zinc-900 p-5 flex justify-between items-center">
+        <footer className="mt-auto bg-zinc-900 p-5 flex lg:justify-between items-center flex-col-reverse lg:flex-row gap-5 lg:gap-0 text-center">
             <p className="text-sm"> {t("copyright")} </p>
 
             <div className="flex flex-row gap-5 items-center">
