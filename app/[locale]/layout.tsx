@@ -2,7 +2,8 @@ import type { Metadata, Viewport } from "next";
 import { Oswald } from "next/font/google";
 import "./globals.css";
 import { I18nProviderClient } from "@/locales/client";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Footer from "@/components/footer";
 
 
@@ -30,6 +31,7 @@ export default async function RootLayout({ children, params }: LayoutProps<'/[lo
         <html lang={locale} className={"dark"}>
             <body className={`${oswald.variable} antialiased min-h-screen flex flex-col gap-y-20`}>
                 <Analytics />
+                <SpeedInsights />
                 <I18nProviderClient locale={locale}>
                     {children}
                     <Footer />
