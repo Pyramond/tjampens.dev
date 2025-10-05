@@ -13,7 +13,7 @@ const Projects: React.FC = async () => {
             <h2 className="text-3xl lg:text-5xl font-oswald mt-20 lg:mt-40"> {t("project-title")} </h2>
             <div className="grid grid-cols-1 lg:grid-cols-3 w-[80%] mx-auto gap-10 lg:gap-15 items-stretch">
                 {data.map((project: ProjectType, index: number) => (
-                    <Project title={project.title} year={project.year} fr={project.fr} en={project.en} source={project.source} key={index} />
+                    <Project title={project.title} year={project.year} fr={project.fr} en={project.en} source={project.source} stack={project.stack} key={index} />
                 ))}
             </div>
         </div>

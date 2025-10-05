@@ -4,8 +4,9 @@ import React from "react";
 import Image from "next/image";
 import ProjectType from "@/types/project";
 import { useCurrentLocale } from "@/locales/client";
+import SkillPill from "@/components/ui/skill-pill";
 
-const Project: React.FC<ProjectType> = ({ title, fr, en, year, source }) => {
+const Project: React.FC<ProjectType> = ({ title, fr, en, year, source, stack }) => {
 
     const locale = useCurrentLocale();
     const SIZE = 25;
@@ -23,6 +24,18 @@ const Project: React.FC<ProjectType> = ({ title, fr, en, year, source }) => {
                 <h4> {year} </h4>
             </div>
             <p className="mb-5"> {locale === "fr" ? fr : en} </p>
+
+            {
+                stack ?
+                    <div className="flex flex-row flex-wrap gap-2 mb-5">
+                        {stack.map((item: string, index: number) => (
+                            <SkillPill name={item} key={index} />
+                        ))}
+                    </div>
+                    :
+                    null
+            }
+
             {
                 source ?
                     <div className="flex justify-center lg:justify-end mt-auto ml-0 lg:ml-4">
