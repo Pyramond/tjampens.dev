@@ -6,7 +6,7 @@ const Resources: React.FC = async () => {
     const t = await getI18n();
 
     return (
-        <div className="m-5">
+        <div className="m-5 flex flex-col items-center gap-10 w-[100%]">
 
             <h2 className="text-3xl lg:text-5xl font-oswald mt-10 lg:mt-15" > {t("resourcesTitle")} </h2>
 
