@@ -12,5 +12,12 @@ export default {
     "skills-language": "Langages",
     "skills-library": "Library / Frameworks",
     "skills-tools": "Outils",
-    "aboutBtn": "À propos"
+    "aboutBtn": "À propos",
+    "aboutTitle": "À propos",
+    "resourcesTitle": "Ressources",
+    "resourcesName": "Type",
+    "resourcesSource": "Source",
+    "resourcesIconName": "Icônes",
+    "resourcesLogo": "Logos",
+    "stackTitle": "Stack"
 } as const
