@@ -32,6 +32,13 @@ const Skills: React.FC = async () => {
                     <SkillPill name={language} key={index} />
                 ))}
             </div>
+
+            <h3 className="text-3xl"> {t("skills-software")} </h3>
+            <div className="flex flex-row gap-3 justify-center w-[50%] flex-wrap mb-10">
+                {data["softwares"].map((language: string, index: number) => (
+                    <SkillPill name={language} key={index} />
+                ))}
+            </div>
         </div>
     )
 }

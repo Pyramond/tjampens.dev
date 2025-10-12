@@ -12,6 +12,7 @@ export default {
     "skills-language": "Langages",
     "skills-library": "Library / Frameworks",
     "skills-tools": "Outils",
+    "skills-software": "Logiciels",
     "aboutBtn": "À propos",
     "aboutTitle": "À propos",
     "resourcesTitle": "Ressources",
