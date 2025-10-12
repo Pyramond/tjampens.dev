@@ -8,6 +8,8 @@ export default {
     "diplomas": "Bachelor Informatique - Développement",
     "github": "github.com/Pyramond",
     "project-title": "Mes Projets",
+    "project-btn-more": "Voir plus",
+    "project-btn-less": "Réduire",
     "skills-title": "Mes compétences",
     "skills-language": "Langages",
     "skills-library": "Library / Frameworks",
