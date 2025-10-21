@@ -8,7 +8,7 @@ import SkillPill from "@/components/ui/skill-pill";
 
 const Project: React.FC<ProjectType> = ({ title, fr, en, year, source, stack }) => {
 
-    const locale = useCurrentLocale();
+    const locale = en === "" ? "fr" : useCurrentLocale();
     const SIZE = 25;
 
     const handleClick = ():void => {
