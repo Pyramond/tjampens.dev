@@ -16,7 +16,8 @@
     "React Router",
     "FastAPI",
     "NodeJS",
-    "Mantine"
+    "Mantine",
+    "TailwindCSS"
   ],
   "tools": [
     "Linux",
