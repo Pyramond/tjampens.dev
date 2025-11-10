@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://tjampens.dev
+
+# Sitemaps
+Sitemap: https://tjampens.dev/sitemap.xml
