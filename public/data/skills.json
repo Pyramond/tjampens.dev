@@ -17,7 +17,8 @@
     "FastAPI",
     "NodeJS",
     "Mantine",
-    "TailwindCSS"
+    "TailwindCSS",
+    "Qt"
   ],
   "tools": [
     "Linux",

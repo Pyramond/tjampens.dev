@@ -51,6 +51,13 @@
     "stack": ["JavaScript", "CSS", "NextJS", "ReactJS", "SQLite", "Bootstrap"]
   },
   {
+    "title": "SAE 2A",
+    "year" : "2025-2026",
+    "fr": "Projet de SAE de deuxième année de BUT Informatique. Ce projet consiste en la création d’un site web pour la gestion de l’association Comité des fêtes de Beaupont. Grâce à ce site, les utilisateurs peuvent se connecter, participer à des tâches ou événements, gérer et communiquer avec les différents membres de l’association.",
+    "en": "Second-year SAE project for the BUT in Computer Science. This project involves creating a website for managing the Comité des fêtes de Beaupont association. Through this site, users can log in, participate in tasks or events, manage and communicate with the association’s members.",
+    "stack": ["JavaScript", "ReactJS", "React Router", "Php", "Laravel"]
+  },
+  {
     "title": "School projects",
     "year": "2024-2025",
     "fr": "Un dépot Git dans lequel il y a mes plus importants projets réalisés dans le cadre de ma scolarité.",
