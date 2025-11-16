@@ -5,7 +5,7 @@ export default {
     "sub-title": "Computer Science student",
     "location": "Lyon, France",
     "school": "University Claude Bernard Lyon 1 - IUT Bourg-en-Bresse",
-    "diplomas": "3-years-bachelor - Computer Science",
+    "diplomas": "3-year-bachelor - Computer Science",
     "github": "github.com/Pyramond",
     "project-title": "My Projects",
     "project-btn-more": "Show more",
