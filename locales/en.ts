@@ -7,6 +7,7 @@ export default {
     "school": "University Claude Bernard Lyon 1 - IUT Bourg-en-Bresse",
     "diplomas": "3-year-bachelor - Computer Science",
     "github": "github.com/Pyramond",
+    "linkedin": "www.linkedin.com/in/quentin-tjampens",
     "project-title": "My Projects",
     "project-btn-more": "Show more",
     "project-btn-less": "Reduce",

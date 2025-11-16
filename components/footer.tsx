@@ -14,6 +14,9 @@ const Footer: React.FC = async () => {
 
             <div className="flex flex-row gap-5 items-center">
                 <Link href="/about" className="hover:text-gray-400"> {t("aboutBtn")} </Link>
+                <a href={`https://${t("linkedin")}`} target="_blank">
+                    <Image src="/icons/linkedin.svg" alt={"Linkedin logo"} className="hover:opacity-50 cursor-pointer" height={SIZE} width={SIZE} />
+                </a>
                 <a href={`https://${t("github")}`} target="_blank">
                     <Image src="/icons/github.svg" alt={"Github logo"} className="hover:opacity-50 cursor-pointer" height={SIZE} width={SIZE} />
                 </a>
