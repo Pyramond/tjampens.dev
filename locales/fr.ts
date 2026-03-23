@@ -13,7 +13,7 @@ export default {
     "project-btn-less": "Réduire",
     "skills-title": "Mes compétences",
     "skills-language": "Langages",
-    "skills-library": "Library / Frameworks",
+    "skills-library": "Bibliothèques / Frameworks",
     "skills-tools": "Outils",
     "skills-software": "Logiciels",
     "aboutBtn": "À propos",
