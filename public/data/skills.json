@@ -18,7 +18,8 @@
     "NodeJS",
     "Mantine",
     "TailwindCSS",
-    "Qt"
+    "Qt",
+    "Laravel"
   ],
   "tools": [
     "Linux",
