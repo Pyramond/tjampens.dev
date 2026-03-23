@@ -1,4 +1,5 @@
 export default {
+    "copyright": "© 2025 Quentin T'JAMPENS (tjampens.dev), Tous droits réservés.",
     "name": "Quentin T'JAMPENS",
     "title": "Développeur junior",
     "sub-title": "Etudiant en informatique - BUT2",
@@ -6,9 +7,21 @@ export default {
     "school": "Université Claude Bernard Lyon 1 - IUT Bourg-en-Bresse",
     "diplomas": "Bachelor Informatique - Développement",
     "github": "github.com/Pyramond",
+    "linkedin": "www.linkedin.com/in/quentin-tjampens",
     "project-title": "Mes Projets",
+    "project-btn-more": "Voir plus",
+    "project-btn-less": "Réduire",
     "skills-title": "Mes compétences",
     "skills-language": "Langages",
-    "skills-library": "Library / Frameworks",
-    "skills-tools": "Outils"
+    "skills-library": "Bibliothèques / Frameworks",
+    "skills-tools": "Outils",
+    "skills-software": "Logiciels",
+    "aboutBtn": "À propos",
+    "aboutTitle": "À propos",
+    "resourcesTitle": "Ressources",
+    "resourcesName": "Type",
+    "resourcesSource": "Source",
+    "resourcesIconName": "Icônes",
+    "resourcesLogo": "Logos",
+    "stackTitle": "Stack"
 } as const

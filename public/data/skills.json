@@ -16,16 +16,27 @@
     "React Router",
     "FastAPI",
     "NodeJS",
-    "NPM"
+    "Mantine",
+    "TailwindCSS",
+    "Qt",
+    "Laravel"
   ],
   "tools": [
     "Linux",
     "Git",
-    "Jetbrains",
     "Firebase",
-    "Insomnia",
     "MariaDB",
     "SQLite",
-    "ViteJS"
+    "NPM"
+  ],
+  "softwares": [
+    "VSCode",
+    "Insomnia",
+    "Pycharm",
+    "IntelliJ IDEA",
+    "PhpStorm",
+    "WebStorm",
+    "DataGrip",
+    "DB Browser"
   ]
 }

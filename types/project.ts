@@ -9,4 +9,5 @@ export default interface Project {
     fr: string;
     en: string;
     source?: Source;
+    stack?: string[]
 }

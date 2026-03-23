@@ -2,7 +2,9 @@ import type { Metadata, Viewport } from "next";
 import { Oswald } from "next/font/google";
 import "./globals.css";
 import { I18nProviderClient } from "@/locales/client";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import Footer from "@/components/footer";
 
 
 const oswald = Oswald({
@@ -27,9 +29,13 @@ export default async function RootLayout({ children, params }: LayoutProps<'/[lo
 
     return (
         <html lang={locale} className={"dark"}>
-            <body className={`${oswald.variable} antialiased`}>
+            <body className={`${oswald.variable} antialiased min-h-screen flex flex-col gap-y-20`}>
                 <Analytics />
-                <I18nProviderClient locale={locale}>{children}</I18nProviderClient>
+                <SpeedInsights />
+                <I18nProviderClient locale={locale}>
+                    {children}
+                    <Footer />
+                </I18nProviderClient>
             </body>
         </html>
     );

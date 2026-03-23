@@ -7,7 +7,8 @@
     "source": {
       "title": "github",
       "url": "https://github.com/Pyramond/OneBlind"
-    }
+    },
+    "stack": ["JavaScript", "Python", "ReactJS", "React Router", "FastAPI", "SQLite", "Redux", "Sass", "Mantine", "Supabase"]
   },
   {
     "title": "tjampens.dev",
@@ -17,7 +18,8 @@
     "source": {
       "title": "github",
       "url": "https://github.com/Pyramond/tjampens.dev"
-    }
+    },
+    "stack": ["TypeScript", "NextJS", "ReactJS", "TailwindCSS", "MagicUI", "Motion"]
   },
   {
     "title": "Recipe App",
@@ -27,7 +29,8 @@
     "source": {
       "title": "github",
       "url": "https://github.com/Pyramond/recipe-app"
-    }
+    },
+    "stack": ["TypeScript", "React Native", "Firebase"]
   },
   {
     "title": "dayamond.fr",
@@ -37,13 +40,22 @@
     "source": {
       "title": "github",
       "url": "https://github.com/Pyramond/dayamond.fr"
-    }
+    },
+    "stack": ["TypeScript", "CSS", "NextJS", "ReactJS", "Motion", "GSAP"]
   },
   {
     "title": "Tapo Hub",
     "year": "2023",
     "fr": "Tapo Hub est une app codée avec NextJS et bootstrap qui a pour but de controller des ampoules connectées TP-Link TAPO",
-    "en": "Tapo Hub is an app built with Next.js and Bootstrap designed to control TP-Link Tapo smart bulbs."
+    "en": "Tapo Hub is an app built with Next.js and Bootstrap designed to control TP-Link Tapo smart bulbs.",
+    "stack": ["JavaScript", "CSS", "NextJS", "ReactJS", "SQLite", "Bootstrap"]
+  },
+  {
+    "title": "SAE 2A",
+    "year" : "2025-2026",
+    "fr": "Projet de SAE de deuxième année de BUT Informatique. Ce projet consiste en la création d’un site web pour la gestion de l’association Comité des fêtes de Beaupont. Grâce à ce site, les utilisateurs peuvent se connecter, participer à des tâches ou événements, gérer et communiquer avec les différents membres de l’association.",
+    "en": "Second-year SAE project for the BUT in Computer Science. This project involves creating a website for managing the Comité des fêtes de Beaupont association. Through this site, users can log in, participate in tasks or events, manage and communicate with the association’s members.",
+    "stack": ["JavaScript", "ReactJS", "React Router", "Php", "Laravel", "Docker", "Nginx", "Vitest", "Storybook"]
   },
   {
     "title": "School projects",
@@ -54,5 +66,12 @@
       "title": "github",
       "url": "https://github.com/Pyramond/School-projects"
     }
+  },
+  {
+    "title": "MGB",
+    "year": "2023",
+    "fr": "MGB est une plateforme web qui permet de gérer sa collection de jeux vidéo.\nGrâce à MGB, les utilisateurs peuvent créer un compte, ajouter des jeux à leur bibliothèque ou à leur liste de souhaits, et rechercher des titres pour obtenir diverses informations via une API (temps de jeu, plateformes disponibles, date de sortie, etc.).",
+    "en": "MGB is a web platform that allows users to manage their video game collection.\nWith MGB, users can create an account, add games to their library or wishlist, and search for titles to access various details through an API (playtime, available platforms, release dates, etc.).",
+    "stack": ["JavaScript", "CSS", "ReactJS", "SQLite", "Bootstrap"]
   }
 ]
