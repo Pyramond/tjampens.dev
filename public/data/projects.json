@@ -55,7 +55,11 @@
     "year" : "2025-2026",
     "fr": "Projet de SAE de deuxième année de BUT Informatique. Ce projet consiste en la création d’un site web pour la gestion de l’association Comité des fêtes de Beaupont. Grâce à ce site, les utilisateurs peuvent se connecter, participer à des tâches ou événements, gérer et communiquer avec les différents membres de l’association.",
     "en": "Second-year SAE project for the BUT in Computer Science. This project involves creating a website for managing the Comité des fêtes de Beaupont association. Through this site, users can log in, participate in tasks or events, manage and communicate with the association’s members.",
-    "stack": ["JavaScript", "ReactJS", "React Router", "Php", "Laravel", "Docker", "Nginx", "Vitest", "Storybook"]
+    "stack": ["TypeScript", "ReactJS", "React Router", "Php", "Laravel", "Docker", "Nginx", "Vitest", "Storybook"],
+    "source": {
+     "title": "github",
+      "url": "https://github.com/Pyramond/SAE-2A-Frontend"
+    }
   },
   {
     "title": "School projects",
