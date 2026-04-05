@@ -1,5 +1,5 @@
 export default {
-    "copyright": "© 2025 Quentin T'JAMPENS (tjampens.dev), Tous droits réservés.",
+    "copyright": "© 2026 Quentin T'JAMPENS (tjampens.dev), Tous droits réservés.",
     "name": "Quentin T'JAMPENS",
     "title": "Développeur junior",
     "sub-title": "Etudiant en informatique - BUT2",
